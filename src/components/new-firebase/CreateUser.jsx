@@ -28,7 +28,6 @@ const CreateUser = ({ setReadUser }) => {
       [e.target.name]: e.target.value,
     });
   };
-  const uploadImg = async () => {};
   const handleSubmit = async (e) => {
     e.preventDefault();
     let newUser;

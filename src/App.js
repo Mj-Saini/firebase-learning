@@ -15,6 +15,7 @@ import UserAllData from "./components/new-firebase/UserAllData";
 import Login from "./components/auth/Login";
 import SignUp from "./components/auth/SignIn";
 import Authentication from "./components/auth/Authentication";
+import WriteData from "./components/Realtime-database/WriteData";
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
       {/* <GetData /> */}
       {/* <AgainGetData /> */}
       {/* <SingleData /> */}
+      <WriteData/>
 
       <Routes>
-        <Route path="/" element={<Authentication />} />
+        {/* <Route path="/" element={<Authentication />} /> */}
 
         {/* <Route path="/" element={<GetUser />} />
         <Route path="/user-details/:id" element={<UserAllData />} />
