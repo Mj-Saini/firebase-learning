@@ -5,9 +5,7 @@ import ReadData from "./ReadData";
 
 const WriteData = () => {
     const [sendData, setSendData] = useState("");
-    
   let uuid = uuidv4();
-  console.log(uuid);
 
   function writeUserData(name) {
     const db = getDatabase();
@@ -18,7 +16,6 @@ const WriteData = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(sendData);
     writeUserData(sendData);
     setSendData("");
   };

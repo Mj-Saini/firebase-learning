@@ -16,6 +16,7 @@ import Login from "./components/auth/Login";
 import SignUp from "./components/auth/SignIn";
 import Authentication from "./components/auth/Authentication";
 import WriteData from "./components/Realtime-database/WriteData";
+import ReduxTry from "./components/ReduxTry";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <GetData /> */}
       {/* <AgainGetData /> */}
       {/* <SingleData /> */}
-      <WriteData/>
+      <WriteData />
+      {/* <ReduxTry /> */}
 
       <Routes>
         {/* <Route path="/" element={<Authentication />} /> */}
